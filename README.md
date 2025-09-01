@@ -31,7 +31,7 @@ networks:
 
 ```
 
-# To deploy loki
+# Deploy container for loki
  
  Download loki-config:
 ```
@@ -43,7 +43,7 @@ Docker run loki container:
 docker run -dit --name loki -v $(pwd):/mnt/config -p 3100:3100 grafana/loki:2.8.0 --config.file=/mnt/config/loki-config.yaml
 ```
 
-# To deploy promtail
+# Deploy container for promtail
 
 Download promtail-config:
 ```
@@ -60,7 +60,7 @@ docker run -dit --name promtail -v $(pwd):/mnt/config -p 9080:9080 -v /opt/swarm
 
 ```
 
-Deploy container for Grafana:
+# Deploy container for Grafana:
 ```
 docker run -dit \
   -p 3000:3000 \
@@ -73,7 +73,7 @@ docker run -dit \
 ``` 
   
   
-Deploy container for Prometheus:
+# Deploy container for Prometheus:
 
 ```
   docker run -dit \
@@ -82,7 +82,7 @@ Deploy container for Prometheus:
   -v /opt/swarm-data/PLG/monitoring-logs/prometheus.yml:/etc/prometheus/prometheus.yml \
   prom/prometheus
 ```
-Deploy container for Node-Exporter:
+# Deploy container for Node-Exporter:
 
 ```
 
