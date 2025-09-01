@@ -142,9 +142,10 @@ scrape_configs:
 
 
 ```
+# Centrail logs alanyzer Loki and Promtail with grafana
+![Docker Log alanyzer ](/img/loki-logs.png)
+
 # Observability Dashborad 
-
-
 
 # Docker monitoring
 
