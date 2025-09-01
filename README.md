@@ -155,5 +155,12 @@ scrape_configs:
 
 ![Docker Metrics](/img/docker-swarm-service-and-containers-metrics.png)
 
+# Keycloak Metrics
+
+![Keycloak Metrics](/img/keycloak-metrics.png)
+
+# Node Exporter full
+![Node Exporter full](/img/Node-exporter.png)
+
 
 
