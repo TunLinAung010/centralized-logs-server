@@ -2,7 +2,7 @@
 https://aws.plainenglish.io/visualizing-log-data-with-grafana-loki-and-promtail-f82179ed1215
 
 
-# Lightweight lightweight centralized logs server
+# lightweight centralized logs server
 
 
 On docker swarm, To watch for docker containers on cluster:
