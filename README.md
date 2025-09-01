@@ -142,5 +142,13 @@ scrape_configs:
 
 
 ```
+# Observability Dashborad 
+
+
+
+
+![Docker Monitoring](/img/Docker-monitoring.png)
+
+
 
 
