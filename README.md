@@ -99,7 +99,6 @@ docker run -dit \
 ```
 
 To edit prometheus.yml file:
-prometheus.yml:
 
 ```
 
