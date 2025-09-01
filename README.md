@@ -142,7 +142,7 @@ scrape_configs:
 
 
 ```
-# Centrail logs alanyzer Loki and Promtail with grafana
+# Centrail logs alanyzer Loki and Promtail with Grafana
 ![Docker Log alanyzer ](/img/loki-logs.png)
 
 # Observability Dashborad 
@@ -151,6 +151,9 @@ scrape_configs:
 
 ![Docker Monitoring](/img/Docker-monitoring.png)
 
+# Docker swarm services and metrics
+
+![Docker Metrics](/img/docker-swarm-service-and-containers-metrics.png)
 
 
 
